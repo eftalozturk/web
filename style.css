@@ -115,7 +115,7 @@ body{
     width: 318px;
     height: 178px;
 }
-.information-content{
+.information-container{
     width: 100%;
 }
 .information{
@@ -145,4 +145,32 @@ body{
 }
 .title-article{
     padding-left: 16px;
+}
+.second-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 1344px;
+}
+.other-information{
+    width: 1344px;
+    display: flex;
+    column-gap: 24px;
+    justify-content: center;
+    margin-top: 13.44px;
+}
+.main-content{
+    width: 1344px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+}
+.main{
+    width: 100%;
+}
+.blue-button-container{
+    width: 13%;
+}
+.solutions-container{
+    width: 87%;
 }
